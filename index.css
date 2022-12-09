@@ -1,0 +1,75 @@
+@font-face {
+	font-family: orbitron;
+	src: url(Orbitron-VariableFont_wght.ttf);
+}
+
+body {
+    background-image: url("space.jpg");
+}
+
+
+div#board {
+    border: 10px solid whitesmoke;
+	width: 80vw;
+	height: 80vh;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#divider {
+    background-color: whitesmoke;
+    width: 10px;
+    height: 80vh;
+	position: absolute;
+    top: 50%;
+	left: calc(50% - 5px);
+	transform: translate(0, -50%);
+}
+
+div#left-paddle {
+    background-color: lightblue;
+    width: 1vw;
+    height: 6vw;
+    position: absolute;
+	top: 50%;
+    left: 12%;
+	transform: translate(0, -50%)
+}
+
+div#right-paddle {
+    background-color: lightblue;
+    width: 1vw;
+    height: 6vw;
+    position: absolute;
+	top: 50%;
+    left: 87%;
+	transform: translate(0, -50%)
+}
+
+div#score-one {
+	right: 52vw;
+}
+
+div#score-two {
+    left: 52vw;
+}
+
+div.score {
+    position: absolute;
+    top: 9vh;
+    font-size: 5em;
+	font-family: orbitron;
+    color: whitesmoke;
+}
+
+div#ball {
+    position: absolute;
+    top: 40vh;
+    left: 30vw;
+    width: 1.5vw;
+    height: 1.5vw;
+    background-color: whitesmoke;
+
+}
