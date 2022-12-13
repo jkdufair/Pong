@@ -7,7 +7,6 @@ body {
     background-image: url("space.jpg");
 }
 
-
 div#board {
     border: 10px solid whitesmoke;
 	width: 80vw;
